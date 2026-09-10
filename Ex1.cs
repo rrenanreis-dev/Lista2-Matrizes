@@ -7,9 +7,9 @@ class Ex1
     {
         int linhas, cols;
 
-        Console.Write("Qtde de linhas: ");
+        Console.Write("Quantidade de linhas: ");
         linhas = int.Parse(Console.ReadLine());
-        Console.Write("Qtde de colunas: ");
+        Console.Write("Quantidade de colunas: ");
         cols = int.Parse(Console.ReadLine());
 
         int[,] matriz = new int[linhas, cols];
